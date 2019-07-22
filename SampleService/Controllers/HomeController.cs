@@ -14,5 +14,11 @@ namespace SampleService.Controllers
 
             return View();
         }
+
+        [HttpGet]
+        public string Test()
+        {
+            return "success";
+        }
     }
 }
