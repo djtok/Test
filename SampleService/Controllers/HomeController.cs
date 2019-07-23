@@ -20,5 +20,11 @@ namespace SampleService.Controllers
         {
             return "success";
         }
+
+        [HttpGet]
+        public string GetName()
+        {
+            return "djt";
+        }
     }
 }
